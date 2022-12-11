@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GetGitHubRepoStartLocation.Logic\GetGitHubRepoStartLocation.Logic.csproj" />
+    <ProjectReference Include="..\GetGitHubRepoStartLocation.Models\GetGitHubRepoStartLocation.Models.csproj" />
+  </ItemGroup>
+
+</Project>
